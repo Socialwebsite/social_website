@@ -1,6 +1,6 @@
 <!-- connect  -->
 <?php
-<<<<<<< HEAD
+
 	  if(isset($_POST['login_button']))  
 	{
 		$username_p = $_POST['u_name'];
@@ -8,7 +8,7 @@
 		
 		echo"$username_p  $password_p";
 	}
-=======
+
 	if(isset($_POST['login_button'])) //to check if the click the login button
 	{
 	  $username_p = $_POST['u_name'];
@@ -18,9 +18,7 @@
 	  
 	}
 	  
-
-
->>>>>>> try
+this is test
 ?>
 
 
