@@ -10,10 +10,10 @@
 	if(isset($_POST['login_button'])) //to check if the click the login button
 	{
 	  $username_p = $_POST['u_name'];
-	  $password_p = $_POST['p_word'];
+	  $password_p = isset($_POST['p_word']);
 	  
-	  echo"$username_p $password_p";
-	  
+	  echo"$username_p";
+	  echo"$password_p";
 	}
 	  
 ?>

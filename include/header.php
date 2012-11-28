@@ -11,11 +11,14 @@
 <div id='header_outer'>
 	<div id='header_left'>
     	<a href='login.php' id="header_text">
-			<p>Friend Circle</p>
+			<p>Lets Connect</p>
         </a>
 	</div>
+    
 	<div id='header_right'>
 		<h4> Connect and share with your friends and family. </h4>
 		<a id='Signup' class='button' href="signup.php">Sign Up </a>
 	  </div>
 </div>
+
+

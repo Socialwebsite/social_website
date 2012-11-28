@@ -4,7 +4,7 @@
 ?>
 
 
-<div id = "signup_contect">
+<div id = "signup_outter">
 	<div id="signup_left">
     	<div id='coin-slider'>
             <a href="#" target="_blank">
