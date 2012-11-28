@@ -1,4 +1,11 @@
-<!-- connect  -->
+<!-- CONNECT AND HEAdER  -->
+<?php
+	include("include/header.php");
+?>
+
+
+
+<!-- USER HIT LOGIN BUTTON -->
 <?php
 
 	  if(isset($_POST['login_button']))  
@@ -21,53 +28,48 @@
 ?>
 
 
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-	<title> Log in Page </title>
-	<link rel='stylesheet' type='text/css' href='css/main.css' />
-	
-</head>
-<body>
 
-<?php
-	include("include/header.php");
-?>
-<div id='content'>
- <div id='img'>
 
+
+<!-- LOGIN PAGE -->
+<div id='login_outer'>
+ <div id='login_left'>
      <img src="image/image.jpg" width="500" height="450"> 
-
  </div>
-	<div id ='login'>
-	<br/><br/>
-		<form id ='login_form' action ='login.php' method = 'POST'>
-		
-		<div id ='username'>
-		
-
-			<input type ="text" placeholder ='Username' id='username' class='field'  name='u_name' />
-		    <br/>
-		</div>
+ 
+ 
+	<div id ='login_right'>
+		<form id ='login_form' class='form' action ='login.php' method = 'POST'>
+            <div id ='username'>
+                <p>
+                    <input type ="text" placeholder ='Username' id='username' class='field'  name='u_name' />
+                </p>
+            </div>
 		
 		<div id ='Password'>
-		
-
-		   <input type ="password" placeholder ='Password' id='Password' class='field' name'p_word' />
-		   <br/>
-		 </div>
+			<p>
+            	<input type ="password" placeholder ='Password' id='Password' class='field' name'p_word' />
+		   </p>
+		</div>
 		
 		<div id ='login_submit'>
+			<p>
+			<input type ="submit"  id='login_submit' class='button' value="login" name='login_button' />
 
-		<input type ="submit"  id='login_submit' class='button' value="login" name='login_button' />
-
-		<input type ="checkbox"  id='login_remember' class='checkbox' value="yes" />
-		remember me
-		<br/>
-		<a href="#">Forgot your password? </a>
+			<input type ="checkbox"  id='login_remember' class='checkbox' value="yes" />
+			remember me
+           </p>
+			<a href="#">Forgot your password? </a>
 		</form>
       </div>	
 	</div>              <!-- Login -->
    </div>               <!-- Content -->
-</body>
-</html>
+   
+   
+   
+   
+   
+<!-- FOOTER  -->
+<?php
+	include("include/footer.php");
+?>

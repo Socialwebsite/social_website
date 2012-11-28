@@ -5,12 +5,42 @@ body
 	font-family: serif;
 }
 
+/*######### field -- button ###########*/
+
+.field
+{
+  width:450px;
+  height: 40px;
+   outline: none;
+}
+
+.field:hover
+{
+  border:1px solid gray;
+}
+.field:focus
+{
+  border: 1px solid #ee352e;
+}
+
+.button
+{
+  background-color: #0072c6;
+  color: white;
+  font-weight:bold;
+  padding: 10px;
+  cursor:pointer;
+}
+.button:active
+{
+background-color: #015899;
+}
 
 
 
 	
 	
-/*################ HEADER #############*/
+/*######################################## HEADER ##################################################*/
 #header_outer
 {
 background: rgb(169,3,41); /* Old browsers */
@@ -50,52 +80,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 }
 
 
-/*################################################ SIGNUP.php ############################*/
-#signup_contect
-{
-}
-
-#signup_left
-{
-}
-
-
-#signup_right
-{
-	float:right;
-}
-
-.field
-{
-	width:450px;
-	height: 40px;
-	 outline: none;
-}
-.field:hover
-{
-	border:1px solid gray;
-}
-.field:focus
-{
-	border: 1px solid #ee352e;
-}
-
-.button
-{
-	background-color: #0072c6;
-	color: white;
-	font-weight:bold;
-	padding: 10px;
-	cursor:pointer;
-}
-.button:active
-{
-background-color: #015899;
-}
 
 
 
-//////----------------
+/*##################################################### LOGIN.php #####################################*/
+#login_outer
+{
+	position:relative;
+}
+
+#login_left
+{
+	position:absolute;
+	left: 100px;
+	top:100px;
+}
+
+#login_right
+{
+	position:absolute;
+	right: 150px;
+	top: 170px;
+}
+
+
+/*################################################ SIGNUP.php ##############################################*/
 #signup_contect
 
 {
