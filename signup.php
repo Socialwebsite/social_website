@@ -1,4 +1,3 @@
-//ikhlas ahmed
 <!-- connect -->
 <?php
 	include("include/header.php");
@@ -47,8 +46,6 @@
             </p>
         <form>
     </div>
-    
-   
 </div>
 
 

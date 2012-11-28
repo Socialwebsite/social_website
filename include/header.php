@@ -10,7 +10,9 @@
 
 <div id='header_outer'>
 	<div id='header_left'>
-		<p>Friend Circle</p>
+    	<a href='login.php' id="header_text">
+			<p>Friend Circle</p>
+        </a>
 	</div>
 	<div id='header_right'>
 		<h4> Connect and share with your friends and family. </h4>

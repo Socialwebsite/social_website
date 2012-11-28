@@ -41,6 +41,11 @@ background-color: #015899;
 	
 	
 /*######################################## HEADER ##################################################*/
+#header_text
+{
+	color:white;
+}
+
 #header_outer
 {
 background: rgb(169,3,41); /* Old browsers */

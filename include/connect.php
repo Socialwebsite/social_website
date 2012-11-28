@@ -1,6 +1,6 @@
 <?php
 /*Variable*/ /*function*/ /*"server", "username", "password""*/
-$connect  =  mysql_connect('localhost',   'root',     'australia');
+$connect  =  mysql_connect('localhost',   'root',     '');
 if($connect != true)
 {
    die('Error - Problem connecting to database.' . mysql_error());	
