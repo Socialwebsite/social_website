@@ -1,6 +1,6 @@
 <!-- connect -->
 <?php
-	include("include/header.php");
+	include("include/header_signUp.php");
 ?>
 
 

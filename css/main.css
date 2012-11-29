@@ -79,6 +79,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 	height:100%;
 }
 
+#header_right_signup 
+{
+	float: right;
+	height:100%;
+	font-size:35px;
+
+
+	font-weight: bold;
+	
+	
+}
+
+
+
 #header_right h4
 {
 	padding-right:20px;
@@ -104,7 +118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 	
 	
 	position:absolute;
-	left: 100px;
+	left: 400px;
 	top:100px;
 }
 

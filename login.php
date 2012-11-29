@@ -25,7 +25,7 @@
 <!-- LOGIN PAGE -->
 <div id='login_outer'>
  <div id='login_left'>
-     <img src="image/image.jpg" width="500" height="450"> 
+     <img src="image/images.jpg" width="500" height="450"> 
  </div>
  
  
