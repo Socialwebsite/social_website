@@ -1,0 +1,66 @@
+---------------------
+about you
+---------------------
+first name
+middle name
+last name
+gender
+birthday:
+status: single-married-divorced-widowed-complicated
+whats on your mind:
+mood:happy-sad-angry
+biography:
+interests:
+Your Car:
+# of friends:
+joined website:
+
+------------------
+education
+------------------
+middle school name:
+heigh school name:
+college names:
+majors:
+minors:
+gra dates:
+
+------------------
+experience
+------------------
+company name:
+job position:
+skills:
+
+------------------
+address
+------------------
+email:
+address:
+zip code:
+country:
+city:
+
+
+-------------------------
+favorite stuff
+-------------------------
+Favorite quote:
+Favorite teacher:
+Favorite Gaming Platform:
+Favorite OS:
+Favorite music:
+Favorite tv show:
+Favorite movie:
+
+-------------------------
+other content
+-------------------------
+website url
+aim
+msn
+yahoo
+skype
+linkedin
+facebook
+twitter
