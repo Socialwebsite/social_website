@@ -10,7 +10,7 @@
 	if(isset($_POST['login_button'])) //to check if the click the login button
 	{
 	  $username_p = $_POST['u_name'];
-	  $password_p = isset($_POST['p_word']);
+	  $password_p = $_POST['p_word'];
 	  
 	  echo"$username_p";
 	  echo"$password_p";
@@ -39,22 +39,21 @@
 		
 		<div id ='Password'>
 			<p>
-            	<input type ="password" placeholder ='Password' id='Password' class='field' name'p_word' />
+            	<input type ="password" placeholder ='Password' id='Password' class='field' name='p_word' />
 		   </p>
 		</div>
 		
 		<div id ='login_submit'>
 			<p>
 			<input type ="submit"  id='login_submit' class='button' value="login" name='login_button' />
-
 			<input type ="checkbox"  id='login_remember' class='checkbox' value="yes" />
 			remember me
            </p>
+        </div>
 			<a href="#">Forgot your password? </a>
 		</form>
-      </div>	
-	</div>              <!-- Login -->
-   </div>               <!-- Content -->
+	</div>              <!-- login_right -->
+   </div>               <!-- login_outer -->
    
    
    

@@ -97,10 +97,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 
 #login_left
 {
+	//box-shadow:5px 5px 15px #A0A0A0;
+	//-moz-box-shadow:5px 5px 15px #A0A0A0;
+	//-webkit-box-shadow:5px 5px 15px #A0A0A0;
+	box-shadow: 10px 10px 5px #888888;
+	
+	
 	position:absolute;
 	left: 100px;
 	top:100px;
 }
+
 
 #login_right
 {
@@ -108,10 +115,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 	right: 150px;
 	top: 170px;
 }
-
-
-
-
 
 
 
