@@ -1,0 +1,58 @@
+/***************************************** index-01-image.cc ********************************************/
+
+#whole-border
+{
+	border: 1px solid red;
+	width: 2029px;
+}
+#back_image_div
+{
+ border:1px solid blue;
+ width:1900px;
+ height:300px;
+ margin: 0 auto; 
+}
+
+
+#BackGround_Button
+{
+  margin:100px;
+  margin-left:1200px;
+  padding:30px;
+  float:right;
+  display:none;
+ }
+ 
+ #back_image_div:hover #BackGround_Button
+  {
+  display:inline;
+  position:absolute;
+ }
+
+#profile_pic_div
+{
+ margin-top:35px;   
+ border:5px solid black;
+ width:250px;
+ height:230px;
+ margin-left:40px;    
+ box-shadow:0 0 10px #333;
+ -moz-box-shadow:0 0 10px #333;
+ -webkit-box-shadow:0 0 10px #333;
+ 
+ }
+ 
+ #Profile_Button
+ {
+  margin-top:50px;
+  margin-left:50px;
+  display:none;
+  height:20px;
+ }
+ 
+ 
+ #profile_pic_div:hover #Profile_Button
+  {
+  display:inline;
+  position:absolute;
+ }
