@@ -1,3 +1,4 @@
+
 <!-- full div-->
 <div id='background_wall'>
 
@@ -16,27 +17,23 @@
 		  </div>
 		</div>
 
-				<div id="user_wall">
+				<div id="user_wall">  <!-- WHATS ON YOUR MIND-->
 					<div id="update_status">
 						<form action='#' method='POST' id='status_form'>
 						<input type='field' placeholder='Whats on your mind ?' id='status_field' class='field' name='status_field' /> 
 						<button type='submit' id='status_button'  class='button' name='status_button'>Update Status</button>
 						<a href='#' id='update_image_music'  class='button'> Add Images/Music </a>
-						
-						
 						</form>
-						
-					
 					</div>
-						<div id="update_link">
-						</div>
-							<div id="comment">
-							</div>
+                </div>  
+                  
+					<div id="update_link"> <!-- LINKS ON WALL-->
+					</div>
+                    
+					<div id="comment">
+					</div>
 
-				</div>
-						<div id="adds">
-						
-						</div>
-
-
+					<div id="adds">	
+					</div>
 </div>
+

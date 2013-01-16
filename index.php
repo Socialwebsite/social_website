@@ -1,6 +1,3 @@
-
-
-
 <!--  CONNECT AND HEAdER  -->
 <?php
 	include("include/header.php");
@@ -18,4 +15,3 @@
   <!-- FOOTER  -->
 <?php
 	include("include/footer.php");
-?>

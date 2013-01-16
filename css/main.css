@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*######################################### ALL #########################################*/
 body
 {
@@ -348,4 +349,356 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
  .field:-moz-placeholder { font-size: 17px;
                                     font-weight:bold; }
 .field:-ms-placeholder { font-size: 17px;
+=======
+/*######################################### ALL #########################################*/
+body
+{
+	background-color: #e2e2e2;
+	font-family: serif;
+}
+
+/*######### field -- button ###########*/
+
+.field
+{
+  width:450px;
+  height: 60px;
+  // outline: none;
+}
+
+.field:hover
+{
+  border:1px solid gray;
+}
+.field:focus
+{
+  border: 1px solid #ee352e;
+}
+
+.button
+{
+  background-color: #0072c6;
+  color: white;
+  font-weight:bold;
+  padding: 10px;
+  cursor:pointer;
+}
+.button:active
+{
+background-color: #015899;
+}
+
+
+
+	
+	
+/*######################################## HEADER ##################################################*/
+#header_text
+{
+	color:white;
+}
+
+#header_outer
+{
+background: rgb(169,3,41); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,3,41,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(100%,rgba(109,0,25,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+
+
+	border-bottom: 10px solid #350200; 
+	height: 100px;
+	color: white;
+}
+
+#header_left a p
+{
+	float: left;
+	padding-left:30px;
+	font-weight: bold;
+	font-size:45px;
+}
+
+
+
+#header_right 
+{
+	float: right;
+	height:100%;
+}
+
+#header_right_signup 
+{
+	float: right;
+	height:100%;
+	font-size:35px;
+
+
+	font-weight: bold;
+	
+	
+}
+
+
+
+#header_right h4
+{
+	padding-right:20px;
+	text-align:center;
+}
+
+
+
+
+
+/*##################################################### LOGIN.php #####################################*/
+#login_outer
+{
+	position:relative;
+}
+
+#login_left
+{
+	//box-shadow:5px 5px 15px #A0A0A0;
+	//-moz-box-shadow:5px 5px 15px #A0A0A0;
+	//-webkit-box-shadow:5px 5px 15px #A0A0A0;
+	box-shadow: 10px 10px 5px #888888;
+	
+	
+	position:absolute;
+	left: 400px;
+	top:100px;
+}
+
+
+#login_right
+{
+	position:absolute;
+	right: 150px;
+	top: 170px;
+}
+
+
+
+
+
+/*################################################ SIGNUP.php ##############################################*/
+#signup_outter
+
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	position:relative;
+	
+}
+
+#signup_left
+{
+	position:absolute;
+	top:170px;
+	left:100px;
+}
+
+#signup_right
+{
+	position:relative;
+}
+#sign_form
+{	
+	position:absolute;
+	top:100px;
+	right:150px;
+}
+
+
+
+
+#whole-border
+{
+	border: 1px solid red;
+	width: 2029px;
+}
+#back_image_div
+{
+ border:1px solid blue;
+ width:1900px;
+ height:300px;
+ margin: 0 auto; 
+}
+
+
+#BackGround_Button
+{
+  margin:100px;
+  margin-left:1200px;
+  padding:30px;
+  float:right;
+  display:none;
+ }
+ 
+ #back_image_div:hover #BackGround_Button
+  {
+  display:inline;
+  position:absolute;
+ }
+
+#profile_pic_div
+{
+ margin-top:35px;   
+ border:5px solid black;
+ width:250px;
+ height:230px;
+ margin-left:40px;    
+ box-shadow:0 0 10px #333;
+ -moz-box-shadow:0 0 10px #333;
+ -webkit-box-shadow:0 0 10px #333;
+ 
+ }
+ 
+ #Profile_Button
+ {
+  margin-top:50px;
+  margin-left:50px;
+  display:none;
+  height:20px;
+ }
+ 
+ 
+ #profile_pic_div:hover #Profile_Button
+  {
+  display:inline;
+  position:absolute;
+ }
+ 
+ /***************************************** index-02-info.cc ********************************************/
+
+#background_div
+{
+ border:1px solid green;
+ width:1900px;
+ height:300px;
+ margin: 0 auto; 
+}
+
+
+#user_info_div
+{
+ border:1px solid black;
+ background-color:#e7e7e7;
+ margin:20px;
+ width:28%;
+ height:84%;
+ float:left;
+}
+
+.main_wrapper
+{
+ border:1px solid black;
+ margin:20px;
+ width:15%;
+ height:84%;
+ float:left;
+ }
+ 
+.main_button 
+ {
+ border:1px solid blue;
+  width:100%;
+  height:70%;
+ }
+ 
+ .main_label
+ {
+ border:1px solid red;
+  width:100%;
+  height:30%;
+ }
+ 
+ #album_img
+ {
+ width: 100%;
+ height: 100%;
+ }
+ 
+ #blog_img
+ {
+ width: 100%;
+ height: 100%;
+ }
+ 
+ #friend_img
+ {
+ width: 100%;
+ height: 100%;
+ }
+ 
+ #family_img
+ {
+ width: 100%;
+ height: 100%;
+ }
+ 
+ /*********************************Index-03-wall*********************************************/
+ 
+ #background_wall              
+ {
+ border:1px solid blue;
+ width:100%;
+ }
+ 
+ #Accordion1
+ {
+ width:20%;
+ float:left;
+ margin-top:20px;
+ margin-right:20px;
+ 
+ }
+ 
+ #user_wall
+ {
+ border:1px solid pink;
+ width:55%;
+ float:left;
+ margin-top:20px;
+ margin-right:20px;
+ }
+ 
+ #adds
+ {
+ border:1px solid purple;
+ width:20%;
+ float:left;
+ margin-top:20px;
+ }
+ #status_field
+ {
+ width:750px;
+ margin-right:10px;
+ }
+ #status_button
+ {
+ margin-right:25px;
+ }
+ 
+ .main_label
+ {
+
+ font-size:45px;
+ font-weight:bold;
+ text-align:center;
+ }
+ 
+ .field::-webkit-input-placeholder {font-size: 17px;
+                                    font-weight:bold;}
+ .field:-moz-placeholder { font-size: 17px;
+                                    font-weight:bold; }
+.field:-ms-placeholder { font-size: 17px;
+>>>>>>> back
                                     font-weight:bold; }
